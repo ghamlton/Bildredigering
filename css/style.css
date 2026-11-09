@@ -1,0 +1,19 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+
+.navigation li a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    background-color: grey;
+    padding: 20px;
+    
+}

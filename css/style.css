@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .navigation{
     display: flex;
     justify-content: space-around;
@@ -15,5 +19,4 @@
 header{
     background-color: grey;
     padding: 20px;
-    
 }

@@ -1,11 +1,9 @@
 body{
     margin: 0;
+    background-color: #BAC8B1;
 }
 
-.navigation{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .navigation li{
     list-style-type: none;
@@ -17,6 +15,30 @@ body{
 }
 
 header{
-    background-color: grey;
+    background-color: #6C8480;
     padding: 20px;
+}
+
+.aboutmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.portrait{
+    width:40%;
+    border: 5px solid #404E3B;
+    border-radius: 5px;
+    margin-top: 1em;
+    background-color: #E6E6E6;
+}
+
 }

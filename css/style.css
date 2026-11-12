@@ -31,6 +31,10 @@ p{
     text-align: center;
 }
 
+.indexgallery img{
+    border: 5px double black;
+}
+
 .logo{
     width: 50px;
 }

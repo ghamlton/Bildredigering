@@ -1,15 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
 
-
 body{
     margin: 0;
     background-color: #BAC8B1;
 }
 
+p{
+    font-family: "Commissioner";
+}
+
 .hero{
     opacity: .7;
     width: 100%;
-    height: 90vh;
+    height: 40vh;
+}
+
+.indexmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexmain h1{
+    text-align: center;
+}
+
+.indexmain p{
+    width: 80%;
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
 }
 
 .navigation li{
@@ -23,7 +46,8 @@ body{
 
 header{
     background-color: #6C8480;
-    padding: 20px;
+    display: flex;
+    justify-content: space-around;
     font-family: "Commissioner";
 }
 
@@ -38,17 +62,62 @@ h1{
     align-items: center;
 }
 
+.aboutmain p{
+    width: 80%;
+}
+
+.indexgallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.indexgallery img{
+    width: 80%;
+}
+
+.picturesmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallerycard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallerycard img{
+    width: 80%;
+    border: 5px double black;
+}
+
+.gallerycard p{
+    width: 80%;
+}
+
+.portrait{
+    width: 100%;
+    margin-top: 1em;
+}
+
 @media (min-width: 768px){
 
 .navigation{
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 50px;
 }
 
 .portrait{
     width:40%;
-    border: 5px solid #404E3B;
+    border: 5px solid #30525C;
     border-radius: 5px;
     margin-top: 1em;
     background-color: #E6E6E6;
@@ -60,6 +129,8 @@ h1{
 
 header{
     display: flex;
+    padding: 20px;
+    justify-content: flex-start;
 }
 
 li a{
@@ -75,6 +146,38 @@ li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero{
+    height: 80vh;
+}
+
+.indexmain p{
+    width: 50%;
+    text-align: left;
+}
+
+.indexgallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.indexgallery img{
+    width: 30%;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.aboutmain p{
+    width: 50%;
 }
 
 }
